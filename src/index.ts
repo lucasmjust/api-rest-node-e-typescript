@@ -1,4 +1,2 @@
-import { server } from "./server/Server";
-
-
-server.listen(3000, () => console.log("Server is running!"));
+import { server } from './server/Server';
+server.listen( 3000, () => console.log('Server is running!'));
